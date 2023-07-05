@@ -1,0 +1,35 @@
+.blogSection {
+    padding-top: 130px;
+}
+
+.blogHeader {
+    margin: 0;
+    color: #141414;
+    font-size: 24px;
+    font-family: Orchidea Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+.blogHeader p {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .blogHeader {
+        color: #141414;
+        font-size: 48px;
+        font-family: Orchidea Pro;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        text-transform: uppercase;
+    }
+
+    .blogHeader p {
+        display: inline-block;
+    }
+}

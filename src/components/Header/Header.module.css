@@ -1,0 +1,37 @@
+.header {
+    background: linear-gradient(360deg, #464341 0%, #010101 100%);
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px !important;
+}
+
+.headerContainerPhone span {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .headerContainerPhone span {
+        display: block;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .headerContainerPhone div {
+        display: none;
+    }
+}

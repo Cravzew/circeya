@@ -1,0 +1,49 @@
+.swiper {
+    padding: 18px 0;
+}
+
+.swiperContainer {
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.swiperHeader {
+    margin: 0;
+    margin-bottom: 56px;
+    color: #141414;
+    font-size: 24px;
+    font-family: Orchidea Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+.swiperImageContent {
+    width: 220px;
+    height: 344px;
+}
+
+.swipers {
+    padding-left: 20px !important;
+}
+
+.swiperImageContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 1024px) {
+    .swipers {
+        max-width: 1550px;
+        margin-right: 0 !important;
+        z-index: 0 !important;
+    }
+
+    .swiperImageContent {
+        width: 315px;
+        height: 488px;
+    }
+}

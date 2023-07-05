@@ -1,0 +1,16 @@
+.footer {
+    background-color: #141414;
+    padding-top: 150px;
+    padding-bottom: 18px;
+}
+
+.footerText {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
